@@ -1,3 +1,55 @@
 body {
     padding-top: 5rem;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+   
+}
+
+hr{
+    border: none; 
+    border-bottom: 3px solid #4e4e4e;
+ 
+}
+
+h2{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.required{
+    color: red;
+    font-weight: lighter;
+}
+
+.feilds{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.mesFeild{
+    height: 100px;
+    width: 450px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.button{
+    background-color: rgb(69, 98, 186);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 20px 8px 20px;
+}
+
+.flashes{
+    text-align: center;
+    background-color: rgb(37, 168, 124);
+    color: white;
+    list-style: none;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 20px;
 }
